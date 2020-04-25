@@ -1,0 +1,113 @@
+
+body{
+text-align:center;
+font-weight:lighter;
+margin:0;
+}
+
+#p1
+{padding:0px 10px;
+ font-weight:bolder;
+ background-color:darkgreen;
+ color:white;
+ margin: 50px 0px 0px 0px;   
+}
+
+/*===========================Table===================================*/
+
+table{
+background:darkgreen;
+padding:1px;
+border:1px inset black;
+color:darkgreen;
+margin : 20px auto;
+}
+
+tr{
+margin:0;
+}
+
+td{
+border-radius:5px;
+text-align:center;
+background-color:lime;
+padding:25px;
+border:outset 1px black;
+margin:0;
+
+
+}
+
+td:hover{
+cursor:hand,default;
+opacity:0.7;
+
+}
+
+/*===========================Stopwatch===============================*/
+
+
+.container{
+    /*height: 300px;*/
+    width: 100%;
+    margin-top:10px;
+  
+}
+
+#display{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.buttons{
+    text-align: center;
+}
+
+/*==========================Best Time================================*/
+
+
+#container2{
+background-color:darkgreen;
+margin: 0 auto;
+color:white;
+padding:10px;
+border:soild 1px darkgreen;
+border-radius:10px;
+width:200px;
+
+}
+
+
+#container2 p{
+display:inline;
+float left;
+width:50%;
+text-align:right;
+}
+
+#display2{
+display:inline;
+float right;
+width:50%;
+text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
